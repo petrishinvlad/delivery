@@ -1,0 +1,7 @@
+psql -d template1
+\l
+\du
+CREATE DATABASE nutrition with OWNER vladpetrishin ENCODING 'UTF8';
+CREATE USER core WITH PASSWORD 'WhYNKjmawdmdpaw122129$$$&&&&';
+GRANT ALL PRIVILEGES ON DATABASE nutrition TO core;
+ALTER USER core CREATEDB;
