@@ -1,3 +1,4 @@
+brew services start postgresql@13
 psql -d template1
 \l
 \du
